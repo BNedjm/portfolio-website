@@ -3,7 +3,7 @@ from flask_bootstrap import Bootstrap5
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 from werkzeug.datastructures  import MultiDict
-from forms import ContactForm
+from api.forms import ContactForm
 from smtplib import SMTP
 from dotenv import load_dotenv
 import os
